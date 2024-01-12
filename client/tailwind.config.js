@@ -16,6 +16,9 @@ export default {
       },
       backgroundColor: {
         "Orange": "#fb8500",
+      },
+      fontFamily: {
+        "sans-serif": "sans-serif"
       }
     },
   },
