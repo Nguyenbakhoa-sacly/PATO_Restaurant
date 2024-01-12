@@ -6,10 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      width: {
+        "420": "490px"
+      },
+      height: {
+        "420": "490px"
+      },
       colors: {
         // "green": "#39DB4A",
         "orange": "#fb8500",
-        "red": "#FF6868",
+        "red": "#D61C22",
         "secondary": "#555",
         "prigmayBG": "#FCFCFC"
 
@@ -17,9 +23,11 @@ export default {
       backgroundColor: {
         "Orange": "#fb8500",
       },
-      fontFamily: {
-        "sans-serif": "sans-serif"
-      }
+      letterSpacing: {
+        '7': '7px',
+        '10': '10px',
+      },
+
     },
   },
   plugins: [require("daisyui")],

@@ -69,7 +69,7 @@ const Navbar = () => {
     <>
       <div className={`fixed z-50 top-0 left-0 right-0 ${isSticky ?
         "shadow-md bg-base-100 transition-all duration-300 ease-in-out" : ""}`}>
-        <div className='max-w-screen-xl container mx-auto  transition-all duration-300 '>
+        <div className='max-w-screen-2xl container mx-auto  transition-all duration-300 '>
           <div className='navbar xl:px-20 py-4 '>
             <div className='navbar-start'>
               <Link>

@@ -78,7 +78,7 @@ const Banner = () => {
         </div>
         <div className=' h-screen w-full z-10 absolute flex flex-col justify-center items-center '>
           <p className='text-3xl md:text-6xl text-white font-bold mb-8'>Welcome to</p>
-          <p className='text-4xl md:text-8xl text-white font-bold mb-8'>PATO PLACE</p>
+          <p className='text-4xl md:text-8xl text-white font-bold mb-8 tracking-widest'>PATO PLACE</p>
         </div>
         <Slider ref={slider} {...settings}
           className='overflow-hidden'
