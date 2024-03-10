@@ -6,13 +6,11 @@ const App = () => {
 
   return (
     <>
-      <div className='bg-prigmayBG'>
-        <div>
-          <Header />
-          <Outlet />
-          <Footer />
-        </div>
-      </div >
+      <div>
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   )
 }

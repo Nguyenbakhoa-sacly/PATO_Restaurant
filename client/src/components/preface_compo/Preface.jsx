@@ -3,7 +3,7 @@ import { GrLinkNext } from "react-icons/gr";
 import { Link } from 'react-router-dom';
 const Preface = () => {
   return (
-    <div className='max-w-screen-2xl container mx-auto h-screen transition-all duration-300 '>
+    <div className='max-w-screen-2xl container mx-auto transition-all duration-300 '>
       <div className='flex flex-col lg:flex-row px-4 md:px-24 justify-between items-center py-32 gap-8'>
         <div className='lg:w-1/2 '>
           <div className='flex flex-col justify-center items-center'>
@@ -16,9 +16,9 @@ const Preface = () => {
             </Link>
           </div>
         </div>
-        <div className='lg:w-1/2 '>
-          <div className='lg:ml-32 '>
-            <img className=' rounded-lg w-420 h-420'
+        <div className='lg:w-1/2 hap'>
+          <div className='lg:ml-32 w-420 h-420 rounded-lg overflow-hidden group'>
+            <img className='transition-all duration-500 ease-in-out hover:scale-125 rounded-lg '
               src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg" alt="" />
           </div>
         </div>
